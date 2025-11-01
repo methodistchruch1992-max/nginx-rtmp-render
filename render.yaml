@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: nginx-rtmp-server
+    env: docker
+    plan: free
+    autoDeploy: true
